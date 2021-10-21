@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## Metall Detektor
 
-You can use the [editor on GitHub](https://github.com/NoahPeeters/MetallDetectorWebsite/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Der Metalldetektor basiert auf einem Arduino Uno.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Verwendung
 
-### Markdown
+- Schließen Sie die 9V Batterie an.
+- Der Arduino beginnt von 3 herunterzuzählen.
+- Sobald die 0 erscheint, Kalibiert sich der Arduino.
+- Anschließend misst der Metalldetektor das Metall in der Nähe der Spule und gibt die Differenzfrequenz kontinuierlich aus.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Bildschirm lesen
 
-```markdown
-Syntax highlighted code block
+## Neu Kalibrieren
 
-# Header 1
-## Header 2
-### Header 3
+Zum neu kalibrieren muss der Reset-Knopf am Arduino gedrück werden. Anschließend zählt der Metalldetektor erneut von drei runter und kalibiert sich anschließend.
 
-- Bulleted
-- List
+## Support
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NoahPeeters/MetallDetectorWebsite/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Bei Fragen und für Hilfe, melden Sie sich bei [metall-support@noahpeeters.de](mailto:metall-support@noahpeeters.de).
