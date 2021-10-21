@@ -1,6 +1,6 @@
 ## Metall Detektor
 
-Der Metalldetektor basiert auf einem Arduino Uno.
+Dies ist die digitale Bedienungsanleitung des Metall Detektors.
 
 ## Verwendung
 
@@ -9,7 +9,24 @@ Der Metalldetektor basiert auf einem Arduino Uno.
 - Sobald die 0 erscheint, Kalibiert sich der Arduino.
 - Anschließend misst der Metalldetektor das Metall in der Nähe der Spule und gibt die Differenzfrequenz kontinuierlich aus.
 
-## Bildschirm lesen
+## Anzeige lesen
+
+Die Anzeige besteht aus zwei Teilen. Auf der linken Seite gibt es drei Multiplikations LEDs und auf der rechten Seite eine [Siebensegmentanzeige](https://de.wikipedia.org/wiki/Segmentanzeige).
+
+Die Siebensegmentanzeige zeigt immer die höchstwertige Ziffer an.
+
+Die Multiplikations LEDs funktionieren folgendermaßen:
+
+- Positive Zahlen
+    - keine LED leuchtet: x1
+    - oberste LED leuchtet: x10
+    - mittlere LED leuchtet: x100
+    - unterste LED leuchtet: x1000
+- Negative Zahlen
+    - alle LEDs leuchten: x-1
+    - oberste LED leuchtet nicht: x-10
+    - mittlere LED leuchtet nicht: x-100
+    - unterste LED leuchtet nicht: x-1000
 
 ## Neu Kalibrieren
 
