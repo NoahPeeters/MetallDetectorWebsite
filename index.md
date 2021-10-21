@@ -30,6 +30,10 @@ Die Multiplikations LEDs funktionieren folgendermaßen:
     - mittlere LED leuchtet nicht: x-100
     - unterste LED leuchtet nicht: x-1000
 
+## Batterie Anzeige
+
+Wenn die Batteriespannung unter 8V fällt, wird ein Fehlercode angezeigt. Dabei zeigt die Siebensegmentanzeige eine 0 und alle Multiplikations LEDs blinken.
+
 ## Neu Kalibrieren
 
 Zum neu kalibrieren muss der Reset-Knopf am *SevenSegDetec©* gedrück werden. Anschließend zählt der *SevenSegDetec©* erneut von drei runter und kalibiert sich anschließend.
