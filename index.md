@@ -1,19 +1,19 @@
-## SevenSegDetect©
+## SevenSegDetec©
 
-Dies ist die digitale Bedienungsanleitung des *SevenSegDetect©* Metalldetektors.
+Dies ist die digitale Bedienungsanleitung des *SevenSegDetec©* Metalldetektors.
 
 ![Bild](metalldetektor.jpg)
 
 ## Verwendung
 
-- Schließen Sie die 9V Batterie an den *SevenSegDetect©*.
-- Der *SevenSegDetect©* beginnt von 3 herunterzuzählen.
-- Sobald die 0 erscheint, kalibiert sich der *SevenSegDetect©*.
-- Anschließend misst der *SevenSegDetect©* das Metall in der Nähe der Spule und gibt die Differenzfrequenz kontinuierlich aus.
+- Schließen Sie die 9V Batterie an den *SevenSegDetec©*.
+- Der *SevenSegDetec©* beginnt von 3 herunterzuzählen.
+- Sobald die 0 erscheint, kalibiert sich der *SevenSegDetec©*.
+- Anschließend misst der *SevenSegDetec©* das Metall in der Nähe der Spule und gibt die Differenzfrequenz kontinuierlich aus.
 
 ## Anzeige lesen
 
-Die Anzeige des *SevenSegDetect©* besteht aus zwei Teilen. Auf der linken Seite gibt es drei Multiplikations LEDs und auf der rechten Seite eine [Siebensegmentanzeige](https://de.wikipedia.org/wiki/Segmentanzeige).
+Die Anzeige des *SevenSegDetec©* besteht aus zwei Teilen. Auf der linken Seite gibt es drei Multiplikations LEDs und auf der rechten Seite eine [Siebensegmentanzeige](https://de.wikipedia.org/wiki/Segmentanzeige).
 
 Die Siebensegmentanzeige zeigt immer die höchstwertige Ziffer an.
 
@@ -32,7 +32,7 @@ Die Multiplikations LEDs funktionieren folgendermaßen:
 
 ## Neu Kalibrieren
 
-Zum neu kalibrieren muss der Reset-Knopf am *SevenSegDetect©* gedrück werden. Anschließend zählt der *SevenSegDetect©* erneut von drei runter und kalibiert sich anschließend.
+Zum neu kalibrieren muss der Reset-Knopf am *SevenSegDetec©* gedrück werden. Anschließend zählt der *SevenSegDetec©* erneut von drei runter und kalibiert sich anschließend.
 
 ## Support
 
