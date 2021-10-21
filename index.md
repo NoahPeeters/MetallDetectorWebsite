@@ -1,12 +1,14 @@
-## Metall Detektor
+## Metalldetektor
 
 Dies ist die digitale Bedienungsanleitung des Metall Detektors.
+
+![Bild](metalldetektor.jpg)
 
 ## Verwendung
 
 - Schließen Sie die 9V Batterie an.
-- Der Arduino beginnt von 3 herunterzuzählen.
-- Sobald die 0 erscheint, Kalibiert sich der Arduino.
+- Der Metalldetektor beginnt von 3 herunterzuzählen.
+- Sobald die 0 erscheint, kalibiert sich der Metalldetektor.
 - Anschließend misst der Metalldetektor das Metall in der Nähe der Spule und gibt die Differenzfrequenz kontinuierlich aus.
 
 ## Anzeige lesen
